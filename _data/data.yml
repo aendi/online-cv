@@ -149,11 +149,11 @@ experiences:
           technologies: |
             - Java Script, requireJs, Jasmine, Git, Maven, Jenkins
 
-        - name: Div. kurze Projekte (u.a. Rhenus Ports, persolog, Markant, LGL)
+        - name: Div. short term projects (e.g. Rhenus Ports, persolog, Markant, LGL)
           description: |
-            * Analyse von Architekturen, Teams und Zukunftsfähigkeit
-            * Entwurf und Begleitung Migrationspfad
-            * Softwareentwicklung & -beratung          
+            * Analysis of architecture, teams und future viability
+            * Design and support migration path
+            * Software development and consulting        
 
         - name: synyx engagement
           description: |
