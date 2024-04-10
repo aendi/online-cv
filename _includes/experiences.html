@@ -19,7 +19,25 @@
         <div class="time">{{ experience.time }}</div>
       </div><!--//upper-row-->
 
-      <div class="company">{{ experience.company }}</div>
+      {% if experience.companies %}
+      <div class="company-header">
+        {% for company in experience.companies %}
+        <div class="company-logo">
+          <img src="{{ site.baseurl }}/assets/images/{{ company.logo }}" alt="company logo"/>
+        </div>
+        <div class="company">{{ company.company }}</div>
+        {% endfor %}
+      </div><!--//meta-->
+      {% endif %}
+
+      {% if experience.company %}
+      <div class="company-header">
+        <div class="company-logo">
+          <img src="{{ site.baseurl }}/assets/images/{{ experience.logo }}" alt="company logo"/>
+        </div>
+        <div class="company">{{ experience.company }}</div>
+      </div><!--//meta-->
+      {% endif %}
 
     </div><!--//meta-->
 
@@ -28,6 +46,27 @@
       {{ experience.details | markdownify }}
     </div><!--//details-->
     {% endif %}
+
+    {% for project in experience.projects %}
+    <div class="item project">
+
+      <div class="project-header">
+        {% if project.logo %}
+        <div class="project-logo">
+          <img src="{{ site.baseurl }}/assets/images/{{ project.logo }}" alt="company logo"/>
+        </div>
+        {% endif %}
+        <h5>{{ project.name }}</h5>
+      </div><!--//meta-->
+    </div><!--//meta-->
+
+      <div class="details project">
+        {{ project.description | markdownify }}
+      </div><!--//details-->
+      <div class="details project">
+        {{ project.technologies | markdownify }}
+      </div><!--//details-->
+    {% endfor %}
 
   </div><!--//item-->
   {% endfor %}

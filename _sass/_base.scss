@@ -77,7 +77,7 @@ p {
 
   .avatar {
     //used for profile image
-    max-width: 100px;
+    max-width: 150px;
     margin-bottom: 15px;
     border: 0px solid #fff;
     border-radius: 100%;
@@ -183,6 +183,25 @@ p {
       margin-bottom: 30px;
     }
   }
+
+  h3.job-title {
+    color: #42A8C0;
+  }
+
+  .experiences-section .item .project {
+    margin-left: 30px;
+    margin-bottom: 0;
+  }
+
+  .experiences-section .details .project {
+    margin-left: 30px;
+    margin-bottom: 0;
+  }
+
+  .experiences-section .item .company-logo img{
+    height: 3em;
+  }
+
   .upper-row,
   .second-upper-row {
     position: relative;
@@ -205,14 +224,31 @@ p {
     position: absolute;
     right: 0;
     top: 0;
-    color: $text-grey;
+    color: #42A8C0;
     flex: 25%;
   }
   .company,
   .university,
   .cert-org {
-    margin-bottom: 10px;
+    padding: 15px;
     color: $text-grey;
+  }
+
+  .company-header {
+    display: flex;
+    align-items: center;
+  }
+  .project-header {
+    display: flex;
+    align-items: center;
+  }
+  .project-header h5{
+    padding: 15px 0;
+  }
+  .project-logo img{
+    height: 1em;
+    margin: 1em 0;
+    padding-right: 15px;
   }
 
   .project-title {
@@ -228,6 +264,7 @@ p {
     }
     .item {
       margin-bottom: 15px;
+      margin-left: 10px;
     }
   }
 

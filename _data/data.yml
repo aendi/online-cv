@@ -3,263 +3,346 @@
 #
 
 sidebar:
-    position: right # position of the sidebar : left or right
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+  position: right # position of the sidebar : left or right
+  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: True # set to False if you want education in main section instead of in sidebar
 
-    # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  # Profile information
+  name: Andreas Weigel
+  tagline: Solution Architect
+  avatar: profile.jpeg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-    # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+  # Sidebar links
+  # email: mail@aendi.de
+  email: andreas.weigel@focus-shift.de
+  #phone: 012 345 6789
+  #timezone: America/Cancun Timezone
+  #citizenship:
+  website: aendi.de #do not add http://
+  linkedin: weigel-andreas
+  xing: Andreas_Weigel10
+  github: aendi
+  telegram: # add your nickname without '@' sign
+  gitlab:
+  bitbucket:
+  twitter: '@aendi'
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+  codewars:
+  goodreads: # Number-Username, e.g. 123456-alandoe
+  #pdf: http://www.africau.edu/images/default/sample.pdf
 
-    languages:
-      title: Languages
-      info:
-        - idiom: English
-          level: Native
+  languages:
+    title: Languages
+    info:
+      - idiom: German
+        level: Native
 
-        - idiom: French
-          level: Professional
+      - idiom: English
+        level: Professional
 
-        - idiom: Spanish
-          level: Professional
+  interests:
+    title: Interests
+    info:
+      - item: Craftsmanship 🛠️
+        link:
 
-    interests:
-      title: Interests
-      info:
-        - item: Climbing
-          link:
+      - item: Karate 🥋 & Home Gym 🏋️‍♂️
+        link:
 
-        - item: Snowboarding
-          link:
-
-        - item: Cooking
-          link:
+      - item: Traveling 🌍 & Camping 🏕️
+        link:
 
 career-profile:
-    title: Career Profile
-    summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+  title: Career Profile
+  summary: |
+    Driven by the passion for software development and the desire to solve real world problems by technology, I started 
+    my studies in computer science at the Karlsruhe Institute of Technology. I fastly recognized that constant learning
+    and stepping out of the comfort zone is the key to a successful path. That's why I took the opportunity to dive 
+    into various topics and companies as a consultant. By that I not only faced different challenges, but also enriched 
+    my skill and mindset.
+    Some of the crucial topics I learned along the way were 
+    * common understanding of coding guidelines and quality, and therefore continuous quality measurement
+    * clean code, clean architecture and clean communication
+    * agile development as key to stay on the right path
+    * recognizing DevOps as a mindset and FullStack as a mindset
+    * Domain Driven Design to avoid miscommunication and to align architecture
+    
+     With backend by heart, architecture by passion and agile by mind I help to solve problems pragmatically.
+    
+    Btw. what is the hardest challenge in software development to really hit the goal?
+    Communication and human interactions!
+
 education:
-    title: Education
-    info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+  title: Education
+  info:
+    - degree: Diploma in Computer Science
+      university: Karlsruhe Institute of Technology
+      logo: kit.png
+      time: 2006 - 2013
+      details: |
+        - Bullet point
+        - Bullet point
 
 experiences:
-    title: Experiences
-    info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+  title: Experiences
+  info:
+    - role: Solution Architect
+      time: 07/2023 - Present
+      company: Focus Shift Software GmbH, Karlsruhe
+      logo: FocusShiftLogo.png
+      details: |
+        Consulting in the role of an architect as well as in the role of a developer in various topics. Pushing for
+        clean code, clean architecture and clean communication. Building pragmatic solutions with the help of Domain Driven 
+        Design and infrastructure as code.
+      projects:
+        - name: EnBW mobility+ AG & Co. KG 🇩🇪 🇬🇧
+          logo: enbw.png
+          description: |
+            Design, implement, lead and connect as coding architect a part of the *mobility+ App Backend* to provide functionalities like car selector, FAQs, routing capabilities and searching for charging locations.
+          technologies: |
+            - Java, Spring (Boot, Cloud, Security, Data), Azure (Devops, Cloud, AppService, Insights, KeyVaults, Custom Domains, Api Management, Servicebus, Knowledgebase, Language Studio), MongoDB, DDD, Clean/Hexagonal Architecture
 
-certifications:
-      title: Certifications
-      list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
 
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+    - role: CEO
+      time: 11/2020 - Present
+      company: Focus Shift Software GmbH, Karlsruhe
+      logo: FocusShiftLogo.png
+      details: |
+        Providing a lean solution for all quirks in the topic of vacation management and time tracking
+        for both, those who are capable of maintaining open source software as well for those who can not provide the 
+        resource in terms of time, money and knowledge or do not want to struggle with the effort and complexity 
+        of setup and maintenance by a software as a service solution: [urlaubsverwaltung.cloud](https://urlaubsverwaltung.cloud) 
+        
+        Responsibilities:
+          - Sales
+          - Marketing
 
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+    - role: Senior Software Engineer / -architect / -consultant
+      time: 11/2013 - 06/2023
+      company: synyx GmbH & Co. KG, Karlsruhe
+      logo: synyx.png
+      details: |
+      projects:
+        - name: EnBW mobility+ AG & Co. KG  🇩🇪 🇬🇧
+          logo: enbw.png
+          description: |
+            Develop a *Roaming Platform* by unify eMobility protocols (OCPI, OCHP, OICP) for both EMPs and CPOs to
+            provide the ability of charging, authenticating and searching. 
+            
+            Design, implement, lead and connect as coding architect a part of the *mobility+ App Backend* to provide functionalities like car selector, FAQs, routing capabilities and searching for charging locations.
+          technologies: |
+            - Java, Spring (Boot, Cloud, Security, Data), Azure (Devops, Cloud, AppService, Insights, KeyVaults, Custom Domains, Api Management, Servicebus, Knowledgebase, Language Studio), MongoDB, DDD, Clean/Hexagonal Architecture
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+        - name: dmTECH GmbH 🇩🇪
+          logo: dmTECH.jpeg
+          description: |
+            Replacement of a legacy system with a multi-tenant backend for managing coupons of a multi-partner program service provider.
+            
+            New development of receipt processing for discounting and subsequent financial accounting.
+          technologies: |
+            - Java, Spring (Boot, Web, Security, HATEOAS, RestDocs, Batch, Cloud, Data), MariaDB, ELK, InfluxDB/Grafana, BDD/Cucumber, Git, Maven, Jenkins, GitLab CI, Jira, Bitbucket, Cloud Foundry, Ansible
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+        - name: BMW AG 🇩🇪
+          logo: bmw.png
+          description: |
+            Implementation of app lifecycle management and premium apps for ID5 (head unit of BMW 7) in a headless browser environment.
+          technologies: |
+            - Java Script, requireJs, Jasmine, Git, Maven, Jenkins
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+        - name: Div. kurze Projekte (u.a. Rhenus Ports, persolog, Markant, LGL)
+          description: |
+            * Analyse von Architekturen, Teams und Zukunftsfähigkeit
+            * Entwurf und Begleitung Migrationspfad
+            * Softwareentwicklung & -beratung          
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        - name: synyx engagement
+          description: |
+            Further engagement to move the company forward
+            * Member of strategic team
+            * Member of HR team
 
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+    - role: Scholarship
+      time: 06/2013 - 10/2013
+      company: Google Summer of Code
+      logo: google.png
+      projects:
+        - name: MIFOS Microfinance Open Source
+          description: |
+            Implementation of a WYSIWYGß-template-editor including mapping of userdata to generate documents and reports.
+            
+            https://opensource.googleblog.com/2014/02/google-summer-of-code-wrap-up-mifos.html
+
+
+    - role: Diploma Thesis
+      time: 10/2012 - 10/2013
+      companies:
+        - company: KIT
+          logo: kit.png
+        - company: synyx GmbH & Co. KG
+          logo: synyx.png
+      details: |
+        Topic: Conception and investigation of an event-driven architecture for compliance-compliant conditionally 
+        consistent persistence in distributed cloud storage systems.
+        Technologies:
+          - Java, Drools, Cassandra
+
+
+#certifications:
+#      title: Certifications
+#      list:
+#        - name: CV Builder
+#          start: 2020
+#          end: 2021
+#          organization: Microsoft
+#          credentialid: 111-222
+#          credentialurl: www.google.com
+#          credentialname: Google
+#          details: |
+#            Details about cert. Lorem ipsum dolor sit amet, consectetur
+#            adipiscing elit.
+#            Nullam eget orci purus. Nullam ultrices neque nibh.
+#            Aenean fermentum, felis vulputate suscipit accumsan,
+#            sem enim bibendum augue, sed convallis arcu lacus at dui.
+#            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
+#            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
+#            Praesent venenatis erat non augue suscipit consectetur.
+#
+#            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
+#            fringilla vel. Ut euismod, sem sed vulputate venenatis,
+#            justo diam viverra velit, sed rhoncus leo leo eu justo.
+#            Suspendisse placerat risus ante, sed porta nisi blandit at.
+#        - name: Git learning
+#          start: 2019
+#          end:
+#          organization: Microsoft
+#          credentialid: 111-222
+#          credentialurl: www.github.com
+#          credentialname: Github
+#          details: |
+#            Older certification. Lorem ipsum dolor sit amet, consectetur
+#            adipiscing elit.
+#            Nullam eget orci purus. Nullam ultrices neque nibh.
+#            Aenean fermentum, felis vulputate suscipit accumsan,
+#            sem enim bibendum augue, sed convallis arcu lacus at dui.
+#            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
+#            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
+#            Praesent venenatis erat non augue suscipit consectetur.
+
+#projects:
+#    title: Projects
+#    intro: >
+#      You can list your side projects in this
+#      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#    assignments:
+#      - title: Velocity
+#        link: "#hook"
+#        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+#
+#      - title: DevStudio
+#        link: "#"
+#        tagline: "A responsive website template designed to help web developers/designers market their services."
+#
+#      - title: Tempo
+#        link: "#"
+#        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+#
+#      - title: Atom
+#        link: "#"
+#        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+#
+#      - title: Delta
+#        link: "#"
+#        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+#
+#oss:
+#    title: OSS Contributions
+#    intro: >
+#      You can list your open source software contributions in this
+#      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#    contributions:
+#      - title: Tempo
+#        link: "#"
+#        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+#
+#      - title: Atom
+#        link: "#"
+#        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+#
+#      - title: Delta
+#        link: "#"
+#        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+  title: Publications
+  intro: |
+    You can list your publications in this section. Lorem ipsum dolor sit
+    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+    bibendum fringilla a eu lectus.
+  papers:
+    - title: VOM MONOLITHEN ZU MICROSERVICES
+      link: "https://synyx.de/wp-content/uploads/2019/06/Andreas-Weigel_Vom-Monolithen-zu-Microservices.pdf"
+      authors: Andreas Weigel, Jakob Fels
+      conference: Java Aktuell, 03/2018
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+talks:
+  title: Talks
+  intro: |
+    You can list your talks in this section. Lorem ipsum dolor sit
+    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+    bibendum fringilla a eu lectus.
+  presentations:
+    - title: OBSERVABILITY IN A MICROSERVICE WORLD
+      conferences:
+        - conference: 01/2019, OOP, Munich
+        - conference: 12/2018, IT Tage, Frankfurt
+        - conference: 11/2018, Java User Group, Karlsruhe
+        - conference: 11/2018, W-JAX, Munich
+        - conference: 11/2018, OSMC, Nürnberg
+        - conference: 10/2018, QS-Tag, Frankfurt
+        - conference: 10/2018, BaselOne, Basel
+        - conference: 09/2018, JAva Forum Nord, Hannover
+        - conference: 09/2018, BED-Con, Berlin
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+    - title: FROM MONOLITH TO MICROSERVICES
+      conferences:
+        - conference: 05/2018, Java User Group Hessen, Kassel
+        - conference: 04/2018, code.talks commerce, Berlin
+        - conference: 02/2018, Java User Group Saxony, Dresden
+        - conference: 01/2018, Java User Group, Hamburg
+        - conference: 12/2017, Dev Talk KIT, Karlsruhe
+        - conference: 10/2017, Java User Group, Stuttgart
+        - conference: 08/2017, Java User Group, Karlsruhe
+
 
 skills:
-    title: Skills &amp; Proficiency
+  title: Skills &amp; Proficiency
 
-    toolset:
-      - name: Python & Django
-        level: 98%
+  toolset:
+    - name: Java
+      level: 98%
 
-      - name: Javascript & jQuery
-        level: 98%
+    - name: Spring (Cloud, Boot, Data, Security, Web)
+      level: 98%
 
-      - name: Angular
-        level: 98%
+    - name: Azure (Devops, Cloud, AppService, Insights, KeyVaults, Custom Domains, Api Management, Servicebus, Knowledgebase, Language Studio)
+      level: 98%
 
-      - name: HTML5 & CSS
-        level: 95%
+    - name: Agile development
+      level: 98%
 
-      - name: Ruby on Rails
-        level: 85%
+    - name: Domain Driven Design
+      level: 95%
 
-      - name: Sketch & Photoshop
-        level: 60%
+    - name: Clean architecture
+      level: 85%
+
+    - name: MySQL & MariaDB & MongoDB
+      level: 85%
+
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+#  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
