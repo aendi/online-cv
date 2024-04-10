@@ -241,14 +241,18 @@ p {
   .project-header {
     display: flex;
     align-items: center;
+    margin: 20px 0 5px 0;
+    height: 1.5em;
   }
   .project-header h5{
-    padding: 15px 0;
+
+  }
+  .project-logo{
+    height: inherit;
   }
   .project-logo img{
-    height: 1em;
-    margin: 1em 0;
     padding-right: 15px;
+    height: inherit;
   }
 
   .project-title {

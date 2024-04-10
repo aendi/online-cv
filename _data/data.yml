@@ -149,7 +149,7 @@ experiences:
           technologies: |
             - Java Script, requireJs, Jasmine, Git, Maven, Jenkins
 
-        - name: Div. short term projects (e.g. Rhenus Ports, persolog, Markant, LGL)
+        - name: Various short term projects (e.g. Rhenus Ports, persolog, Markant, LGL)
           description: |
             * Analysis of architecture, teams und future viability
             * Design and support migration path
