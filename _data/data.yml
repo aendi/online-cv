@@ -100,7 +100,7 @@ experiences:
           description: |
             Design, implement, lead and connect as coding architect a part of the *mobility+ App Backend* to provide functionalities like car selector, FAQs, routing capabilities and searching for charging locations.
           technologies: |
-            - Java, Spring (Boot, Cloud, Security, Data), Azure (Devops, Cloud, AppService, Insights, KeyVaults, Custom Domains, Api Management, Servicebus, Knowledgebase, Language Studio), MongoDB, DDD, Clean/Hexagonal Architecture
+            - Java, Spring (Boot, Cloud, Security, Data), Thymeleaf, Azure (Devops, Cloud, AppService, Insights, KeyVaults, Custom Domains, Api Management, Servicebus, Knowledgebase, Language Studio), MongoDB, DDD, Clean/Hexagonal Architecture
 
 
     - role: CEO
@@ -131,7 +131,7 @@ experiences:
             
             Design, implement, lead and connect as coding architect a part of the *mobility+ App Backend* to provide functionalities like car selector, FAQs, routing capabilities and searching for charging locations.
           technologies: |
-            - Java, Spring (Boot, Cloud, Security, Data), Azure (Devops, Cloud, AppService, Insights, KeyVaults, Custom Domains, Api Management, Servicebus, Knowledgebase, Language Studio), MongoDB, DDD, Clean/Hexagonal Architecture
+            - Java, Spring (Boot, Cloud, Security, Data), Thymeleaf, Azure (Devops, Cloud, AppService, Insights, KeyVaults, Custom Domains, Api Management, Servicebus, Knowledgebase, Language Studio), MongoDB, DDD, Clean/Hexagonal Architecture
 
         - name: dmTECH GmbH 🇩🇪
           logo: dmTECH.jpeg
@@ -140,7 +140,7 @@ experiences:
             
             New development of receipt processing for discounting and subsequent financial accounting.
           technologies: |
-            - Java, Spring (Boot, Web, Security, HATEOAS, RestDocs, Batch, Cloud, Data), MariaDB, ELK, InfluxDB/Grafana, BDD/Cucumber, Git, Maven, Jenkins, GitLab CI, Jira, Bitbucket, Cloud Foundry, Ansible
+            - Java, Spring (Boot, Web, Security, HATEOAS, RestDocs, Batch, Cloud, Data), Thymeleaf, MariaDB, ELK, InfluxDB/Grafana, BDD/Cucumber, Git, Maven, Jenkins, GitLab CI, Jira, Bitbucket, Cloud Foundry, Ansible
 
         - name: BMW AG 🇩🇪
           logo: bmw.png
