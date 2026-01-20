@@ -136,7 +136,7 @@ experiences:
         - name: dmTECH GmbH 🇩🇪
           logo: dmTECH.jpeg
           description: |
-            Replacement of a legacy system with a multi-tenant backend for managing coupons of a multi-partner program service provider.
+            Replacement of a legacy system with a multi-tenant backend for managing coupons of the multi-partner program PAYBACK service provider.
             
             New development of receipt processing for discounting and subsequent financial accounting.
           technologies: |
